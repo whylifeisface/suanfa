@@ -16,6 +16,7 @@ public class HammingDistance {
         return index;
     }
 
+
     public static void main(String[] args) {
         HammingDistance hammingDistance = new HammingDistance();
         int i = hammingDistance.hammingDistance(5, 6);

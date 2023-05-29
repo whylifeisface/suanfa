@@ -10,22 +10,11 @@ import java.util.Arrays;
 //
 public class StrStr {
     public int strStr(String haystack, String needle) {
-        char[] cs = haystack.toCharArray();
-        Arrays.sort(cs);
-        int i = 0;
-        StringBuilder s = new StringBuilder();
-        char[] chars = needle.toCharArray();
-        for (char aChar : chars) {
-            i = Arrays.binarySearch(cs, aChar);
-        }
-        String s1 = s.toString();
-        return i;
 
+        return 0;
     }
 
     public static void main(String[] args) {
-        StrStr strStr = new StrStr();
-        int i = strStr.strStr("sadbutsad", "sad");
-        System.out.println(i);
+
     }
 }

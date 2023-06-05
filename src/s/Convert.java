@@ -24,6 +24,9 @@ package s;
 
 public class Convert {
     public String convert(String s, int numRows) {
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("");
+        stringBuilder.indexOf("B");
         return "";
     }
 }
